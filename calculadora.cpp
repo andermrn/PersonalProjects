@@ -8,7 +8,6 @@ int main()
     // c(contador) = e o contador para o vetor
     // r(resultado) é o resultado das operaçoes
     // h(historico) é o vetor
-    teste
     int opcao, n1, n2, c = 0;
     float r, h[100];
     do
