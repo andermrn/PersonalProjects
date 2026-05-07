@@ -8,8 +8,8 @@ int main()
     // c(contador) = e o contador para o vetor
     // r(resultado) é o resultado das operaçoes
     // h(historico) é o vetor
-    int opcao, n1, n2, c = 0;
-    float r, h[100];
+    int opcao, c = 0;
+    float n1, n2, r, h[100];
     do
     {
         cout << "\n\t====== CALCULADORA.C++ ======\n";
@@ -67,6 +67,9 @@ int main()
                 cout << "Historico: " << h[i] << endl;
             }
             break;
+        case 0:
+            cout << "\nSaindo...";
+            return 0;
             
             default:
                 cout << "Opcao invalida!\n";
